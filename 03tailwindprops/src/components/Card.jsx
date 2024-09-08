@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Card = ({name,btnText='CHECK'}) => {
-    
+const Card = ({name,btnText='CHECK',detail}) => {
+    console.log(detail)
   return (
     <div class="relative h-[400px] w-[300px] rounded-md">
     <img
